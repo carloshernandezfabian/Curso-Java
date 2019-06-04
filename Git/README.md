@@ -39,3 +39,13 @@ git commit -m "mensaje"
 ```Shell
 git push origin [nombre de la rama]
 ```
+#### Archivos de configuracion de repositorio
+
++ En el archivo **.gitignore** Agregamos el nombre de los archivos que deseamos ignorar, para que no se suban al repositorio. 
+
++ En la carpeta **.git** se encuentran las configuraciones de nuestro repositorio localmente, y dentro de el hay un archivo que se llama **config** que contiene el **origin**, que es hacia donde apunta nuestro repositorio, por ejemplo:
+```Shell
+[remote "origin"]
+	url = https://github.com/carloshernandezfabian/Curso-Java.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+```
