@@ -110,3 +110,5 @@ git push origin master
 
 
 ![conflicto merge](Imagenes/mergeconflicto.png "merge")
+
+una vez solucionado los conflictos podemos subir los cambios.
