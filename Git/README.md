@@ -11,6 +11,13 @@ git clone https://github.com/carloshernandezfabian/Curso-Java.git
 ```Shell
 git status
 ```
+
+3. El siguiente comando nos notifica los cambios que hay en nuestro repositorio.
+
+```Shell
+git fetch origin
+```
+
 #### Comandos para subir cambios al servidor
 
 1. Primero verificamos el estado en el que esta el repositorio:
@@ -41,11 +48,44 @@ git push origin [nombre de la rama]
 ```
 #### Archivos de configuracion de repositorio
 
-+ En el archivo **.gitignore** Agregamos el nombre de los archivos que deseamos ignorar, para que no se suban al repositorio. 
++ En el archivo **.gitignore** Agregamos el nombre de los archivos que deseamos ignorar, para que no se suban al repositorio.
 
 + En la carpeta **.git** se encuentran las configuraciones de nuestro repositorio localmente, y dentro de el hay un archivo que se llama **config** que contiene el **origin**, que es hacia donde apunta nuestro repositorio, por ejemplo:
 ```Shell
 [remote "origin"]
 	url = https://github.com/carloshernandezfabian/Curso-Java.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
+#### Manejo de ramas
+##### Creacion de ramas
+
+1. Comando para crear una rama en Git :
+
+```Shell
+git branch [nombre de la rama]
+```
+
+2. para poder cambiar de rama utilizamos el comando :
+
+```Shell
+git checkout [nombre de la rama]
+```
+
+2.1 Comando para crear y cambiar de rama utilizamos el siguiente comando.
+
+```Shell
+git checkout -b [nombre de la nueva rama]
+```
+
+3. para ubicar la rama en la que nos encontramos, utilizamos el comando:
+
+```Shell
+git branch
+```
+
+4. Para subir o publicar la rama es el siguiente comando:
+
+```Shell
+git push origin [nombre de la rama que se creo]
 ```
