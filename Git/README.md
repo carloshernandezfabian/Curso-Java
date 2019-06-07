@@ -18,6 +18,12 @@ git status
 git fetch origin
 ```
 
+4. El siguiente comando trae los cambios del servidor a tu local.
+
+```Shell
+git pull origin [nombre de la rama]
+```
+
 #### Comandos para subir cambios al servidor
 
 1. Primero verificamos el estado en el que esta el repositorio:
