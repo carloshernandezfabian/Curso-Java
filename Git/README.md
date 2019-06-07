@@ -105,3 +105,8 @@ git merge rama1
 git push origin master
 ```
 ![representación grafica de un merge](Imagenes/GIT-Page-2.png "merge")
+
+> Nota: si el merge genero conflicto debemos solucionar primero los conflictos, para subir los cambios, ejemplo:
+
+
+![conflicto merge](Imagenes/mergeconflicto.png "merge")
