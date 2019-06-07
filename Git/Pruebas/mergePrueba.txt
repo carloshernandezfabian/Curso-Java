@@ -1,5 +1,7 @@
-Esta es una prueba de texto para 
+Esta es una prueba de texto para
 
 que Carlos aprenda a usar
 
 git, venga el primer Merge
+
+practicando el marge
