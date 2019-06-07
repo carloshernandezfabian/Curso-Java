@@ -89,3 +89,19 @@ git branch
 ```Shell
 git push origin [nombre de la rama que se creo]
 ```
+#### Integración de ramas
+
+1. Posicionarse en la rama que queremos integrar los cambios, por ejemplo los cambios de rama1 a master
+
+```Shell
+git checkout master
+
+git merge rama1
+```
+
+> Nota: si el merge no genero conflicto podemos hacer el push sin problemas.
+
+```Shell
+git push origin master
+```
+![representación grafica de un merge](https://drive.google.com/thumbnail?id=1CsHJ68E28STtE_hg855neYvZiAVInfZm&authuser=0&sz=w1349-h657 "merge")
