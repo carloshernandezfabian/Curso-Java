@@ -118,3 +118,25 @@ git push origin master
 ![conflicto merge](Imagenes/mergeconflicto.png "merge")
 
 una vez solucionado los conflictos podemos subir los cambios.
+
+## Manipulacion de Commits
+
+1. Esta instrucción muestra el log, de los commits que hemos realizado, así como quien los creo, fecha de creación y tiene un identificador unico universal.
+
+```Shell
+git log
+```
+
+2.  Para cambiar a un commit en especifico utilizamos :
+
+```Shell
+git checkout [uuid] [ruta del archivo]
+```
+
+> Nota: si no Agregamos la ruta del archivo especifico, aremos que **TODO** se regrese a ese estado.
+
+3. Subir los cambios.
+
+```Shell
+git push origin [nombre de la rama]
+```
