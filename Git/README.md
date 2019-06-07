@@ -104,4 +104,4 @@ git merge rama1
 ```Shell
 git push origin master
 ```
-![representación grafica de un merge](Imagenes/GIT-Page-2.PNG "merge")
+![representación grafica de un merge](Imagenes/GIT-Page-2.png "merge")
