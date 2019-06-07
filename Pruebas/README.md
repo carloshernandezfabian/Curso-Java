@@ -15,7 +15,7 @@ componentes del JDK:
 + Depurador.
 + Generador de documentación.
 
-###### JRE (Java Runtime Enviroment)
+### JRE (Java Runtime Enviroment)
 
 Es la implentación de la maquina virtual de java, actua como un intermediario entre el sistema y java.
 
@@ -26,3 +26,14 @@ El JRE esta compuesto por dos importantes areas, la primera son las clases que c
 + **La JVM** es un componente de software que actua justamente como una maquina virtual o un espacio virtual de memoria, donde se ejecutan las aplicaciones java.
 
 La JVM es el programa que interpreta el codigo java,mientras que las librerias de clases estándar son las que implementan el API de java, ambas deben ser consistentes entre sí.
+
+**Tipos de Dato**
+
+Java define 8 tipos de datos, primitivos.
+
+| Dato    | Tipo   | Valor Min    |
+| --------|:------:| ------------:|
+| byte    | entero | - 128        |
+| short   | entero | - 32768      |
+| int     | entero | - 2147483648 |
+| long    | entero |              |
