@@ -126,6 +126,21 @@ git push origin master
 
 una vez solucionado los conflictos podemos subir los cambios.
 
+##### Eliminación de ramas
+
+El siguiente comando nos permite eliminar una rama local
+
+```Shell
+git branch -d [nombre de la rama]
+
+```
+
+El siguiente comando nos permite eleiminar una rama en remoto
+
+```Shell
+git push origin --delete [nombre de la rama]
+```
+
 ## Manipulacion de Commits
 
 1. Esta instrucción muestra el log, de los commits que hemos realizado, así como quien los creo, fecha de creación y tiene un identificador unico universal.
