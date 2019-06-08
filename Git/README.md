@@ -147,3 +147,10 @@ git checkout [uuid] [ruta del archivo]
 ```Shell
 git push origin [nombre de la rama]
 ```
+## Crtl Z de GIT
+
++ Para restaurar el estado previo utilizamos el comando *git checkout [nombre del archivo]*
+
+![Crtlz git](Imagenes/ctrlzgit.PNG)
+
+> Nota: Si no especificamos el nombre del archivo, se pueden perder **TODOS** los cambios, de los que  no se hizieron commits, El comando es *git checkout .*
