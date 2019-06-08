@@ -91,7 +91,7 @@ git checkout [nombre de la rama]
 git checkout -b [nombre de la nueva rama]
 ```
 
-3. para ubicar la rama en la que nos encontramos, utilizamos el comando:
+3. para ubicar y mostrar la rama en la que nos encontramos, utilizamos el comando:
 
 ```Shell
 git branch
