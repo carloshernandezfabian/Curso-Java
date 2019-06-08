@@ -23,6 +23,13 @@ git fetch origin
 ```Shell
 git pull origin [nombre de la rama]
 ```
+5. Este comando nos muestra las diferencias del estado anterior a lo que cambiamos.
+
+```Shell
+git diff
+```
+![comando diff](Imagenes/diff.PNG)
+
 
 #### Comandos para subir cambios al servidor
 
@@ -115,6 +122,35 @@ git push origin master
 > Nota: si el merge genero conflicto debemos solucionar primero los conflictos, para subir los cambios, ejemplo:
 
 
-![conflicto merge](Imagenes/mergeconflicto.png "merge")
+![conflicto merge](Imagenes/mergeconflicto.PNG "merge")
 
 una vez solucionado los conflictos podemos subir los cambios.
+
+## Manipulacion de Commits
+
+1. Esta instrucción muestra el log, de los commits que hemos realizado, así como quien los creo, fecha de creación y tiene un identificador unico universal.
+
+```Shell
+git log
+```
+
+2.  Para cambiar a un commit en especifico utilizamos :
+
+```Shell
+git checkout [uuid] [ruta del archivo]
+```
+
+> Nota: si no Agregamos la ruta del archivo especifico, aremos que **TODO** se regrese a ese estado.
+
+3. Subir los cambios.
+
+```Shell
+git push origin [nombre de la rama]
+```
+## Crtl Z de GIT
+
++ Para restaurar el estado previo utilizamos el comando *git checkout [nombre del archivo]*
+
+![Crtlz git](Imagenes/ctrlzgit.PNG)
+
+> Nota: Si no especificamos el nombre del archivo, se pueden perder **TODOS** los cambios, de los que  no se hizieron commits, El comando es *git checkout .*
