@@ -23,6 +23,13 @@ git fetch origin
 ```Shell
 git pull origin [nombre de la rama]
 ```
+5. Este comando nos muestra las diferencias del estado anterior a lo que cambiamos.
+
+```Shell
+git diff
+```
+![comando diff](Imagenes/diff.PNG)
+
 
 #### Comandos para subir cambios al servidor
 
@@ -115,7 +122,7 @@ git push origin master
 > Nota: si el merge genero conflicto debemos solucionar primero los conflictos, para subir los cambios, ejemplo:
 
 
-![conflicto merge](Imagenes/mergeconflicto.png "merge")
+![conflicto merge](Imagenes/mergeconflicto.PNG "merge")
 
 una vez solucionado los conflictos podemos subir los cambios.
 
