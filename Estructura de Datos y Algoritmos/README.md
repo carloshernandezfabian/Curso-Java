@@ -27,7 +27,7 @@ Las estructuras de datos son una colección de datos cuya organización se carac
 
 Debido a que por lo general tenemos que tratar con conjuntos de datos y no con datos simples, es necesario tratar con estructuras de datos adecuadas a cada necesidad.
 
-Una estructura de datos se caracteriza por :
+Caracteristicas de una Estructura de Datos :
 
  - Pueden descomponerse en los elementos que la confoman.
 
