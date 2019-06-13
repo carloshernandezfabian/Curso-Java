@@ -33,7 +33,7 @@ Una estructura de datos se caracteriza por :
 
 *  La manera en que se colocan los elementos dentro de la estructura, afectará la forma en que se realicen los accesos a cada elemento.
 
-* La clocación de los elementos y la manera en que se accede a ellos, puede ser encapsulada.
+* La colocación de los elementos y la manera en que se accede a ellos, puede ser encapsulada.
 
 La información que se procesa en la computadora, es un conjunto de datos que pueden ser simples o estructurados.
 
@@ -94,6 +94,7 @@ Los mas importantes son: entero, logico y caracter
 Para que un conjunto se considere ordinal se tiene que poder calcular la posición, el anterior y el siguiente elemento, de un elemento cualquiera del conjunto.
 
 **Tipos NO-Ordinales**
+
 Este tipo nos sirve para declarar variables que pueden tomar valores, dentro del conjunto de los numeros reales.
 
  - No se puden contar
@@ -103,11 +104,17 @@ Este tipo nos sirve para declarar variables que pueden tomar valores, dentro del
 
 Un arreglo puede definirse como un grupo o una colección finita, homogénea y ordenada de elementos.
 
-Finita : todo arreglo tiene un limite, es decir, sabe determinar cual sera el número maximo de elementos, que podran formar parte del arreglo.
+Finita :
 
-Homogenea : todos los elementos del arreglo son del mismo tipo.
+todo arreglo tiene un limite, es decir, sabe determinar cual sera el número maximo de elementos, que podran formar parte del arreglo.
 
-Ordenada : se puede determinar cual sera el primero, segundo, tercero, n . . . elemento.
+Homogenea :
+
+todos los elementos del arreglo son del mismo tipo.
+
+Ordenada :
+
+se puede determinar cual sera el primero, segundo, tercero, n . . . elemento.
 
 tipo de arreglos:
 
