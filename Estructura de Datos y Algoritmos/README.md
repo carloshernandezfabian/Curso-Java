@@ -67,25 +67,42 @@ La asignación de tipos a los datos, tiene dos objetivos principales:
 
 **Tipos Dinamicos**
 
-Este tipo nos permite tener un mayor control, sobre la gestion de memoria en nuestros programas.
+Este tipo nos permite tener un mayor control, sobre la gestion de memoria en nuestros programas ya que no tienen limitaciones o restricciones en el tamaño de memoria ocupada.
 
-> Se puede manejar el tamaño de las variables en tiempo de ejecución.
+Mediante el uso de un tipo de datos especifico (puntero) es posible construir estructutras de datos dinamicas, ofreciendo soluciones eficaces y efectivas, en la solución de problemas complejos.
+
+se caracterizan por el hecho, de que con un nombre, se hace referencia a un grupo de casillas de memoria.
+
+Las variables que se crean y estan disponibles durante la ejecución del programa, se llaman variables continuas.
+
+De esta manera se pueden adquirir posiciones adicionales de memoria, a medida que se necesiten durante la ejecución del programa y liverarlas cuando no se necesiten.
 
 **Tipos Estáticos**
 
+Son aquellas en las que el tamaño ocupado en memoria, se definen antes de que el programa se ejecute y no puede modificarse dicho tamaño durante la ejecución del programa.
+
+Su principal caracteristica es que ocupan, solo una casilla de memoria, por lo tanto, una variable simple hace referencia a un unico valor a la vez.
+
 Una vez declarada una variable, a esta se le asigna un espacio de memoria fijo y este espacio no se podra aumentar, ni disminuir.
 
-> El tamaño que ocupa en memoria, NO puede variar durante la ejecuación del programa.
-
-**Tipos Estructurados**
+**Tipos Estructurados o Compuestos**
 
 Los tipos de datos estructurados, se refieren a colecciones de elementos.
+
+* Arreglos
+* Conjuntos
+* Strings
 
 **Tipos Simples**
 
 Los tipo simples mas basicos son : entero, logico, caracter y real. La mayoria de los lenguajes de programación, los soportan.
 
-**Tipos Ordinales**
+* Enteros
+* Reales
+* Caracteres
+* Boleanos
+
+**Tipos Ordinales o Lineales**
 
 Se dice que es ordinal por que el conjunto de valores que representa se puede contar, es decir, podemos establecer una relación uno a uno entre sus elementos y el conjunto de los numeros naturales.
 
@@ -93,12 +110,19 @@ Los mas importantes son: entero, logico y caracter
 
 Para que un conjunto se considere ordinal se tiene que poder calcular la posición, el anterior y el siguiente elemento, de un elemento cualquiera del conjunto.
 
-**Tipos NO-Ordinales**
+* Pilas
+* Colas
+* Listas
+
+**Tipos NO-Ordinales o NO Lineales**
 
 Este tipo nos sirve para declarar variables que pueden tomar valores, dentro del conjunto de los numeros reales.
 
  - No se puden contar
  - No se pude establecer una relación uno a uno
+
+* Arbol
+* Grafo
 
 # Arreglos #
 
