@@ -1,65 +1,67 @@
+# Comandos basicos en consola, Linux
 
-#### Comandos Iniciales de consola
-> Nota: tmux es un multiplexor de terminal para sistemas tipo Unix.
+##  **ls** ##
 
-**El comando base es  Ctrl + b**
+Este comando, lista los archivos y carpetas del directorio actual.
 
-1. Comando para abrir tmux
+![comando ls](ImagenesLinux/comando-ls.PNG)
 
-```Shell
-		tmux
-```
+### **Opciones** ###
 
-2. Comando para ver el listado de terminales de tmux
+* ls -a
 
-```Shell
-		tmux ls
-```
+Muestra los archivos y directorios  del directorio actual incluyendo los archivos y directorios ocultos.
 
-![tmux-ls](Imagenes/tmux-ls.PNG)
+* ls -l
 
-3. Comando para re-ingresar a una terminal que esta abierta.
+Muestra información un poco mas detalla de los archivos y directorios tales como: nombre, permisos, propietario, fecha y hora de la  modificacion, etc.
 
-```Shell
-		tmux attach-session -t [nombre de la sesion]
-```
+##  **cd** ##
 
-## Para poder movernos en la pantalla
+Este comando, nos permite navegar y accesar a los directorios de nuestro sistema.
 
 ```Shell
-		Ctrl + b + tecla ([)
+cd [Ruta del directorio]
 ```
-**para salir del buffer Esc**
 
-## Para crear nuevas pestañas utilizamos el comando :
+![comando cd](ImagenesLinux/comando-cd.PNG)
+
+### **Opciones** ###
+
+* cd..
+
+Retrocede al directorio anterior.
+
+* cd /
+
+Regresa directamente a la raiz de nuestro sistema.
+
+##  **pwd** ##
+
+Este comando, muestra la ruta del directorio en el que nos encontremos ubicados.
+
+
+![comando pwd](ImagenesLinux/comando-pwd.PNG)
+
+##  **mkdir** ##
+
+Este comando, nos permite crear un nuevo directorio (carpeta).
 
 ```Shell
-		Ctrl + b + c
+mkdir [nombre de la carpeta]
 ```
+![comando mkdir](ImagenesLinux/comando-mkdir.PNG)
 
-###### Comando para renombrar el nombre de la pestaña es ######
+##  **rm** ##
+
+Este comando, nos permite eliminar un archivo deseado.
 
 ```Shell
-		Ctrl + b + ,
+rm [nombre del archivo a eliminar]
 ```
 
-###### Comando para recorrer las pestañas hacia adelante ######
+![comando rm](ImagenesLinux/comando-rm.PNG)
 
-```Shell
-		Ctrl + b + n
-```
-###### Comando para recorrer las pestañas hacia atras ######
+##  **mv** ##
 
-```Shell
-		Ctrl + b + p
-```
-###### Comando para ir directamente a la pestaña ######
-
-```Shell
-		Ctrl + b + [# de pestaña]
-```
-###### Comando para cerrar una pestaña ######
-
-```Shell
-		Ctrl + b + &
-```
+Este comando, nos permite mover un archivo en concreto y lo lleva a al directorio deseado, eliminandolo de donde antes estaba.
