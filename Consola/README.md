@@ -64,4 +64,16 @@ rm [nombre del archivo a eliminar]
 
 ##  **mv** ##
 
-Este comando, nos permite mover un archivo en concreto y lo lleva a al directorio deseado, eliminandolo de donde antes estaba.
+Este comando, nos permite mover archivos y directorios en concreto, de una ubicación a otra.
+
+```Shell
+mv nombreArchivo [ruta destino]
+```
+
+##  **cp** ##
+
+Este comando, nos permite copiar archivos y directorios, en el sistema.
+
+```Shell
+cp nombreArchivo [ruta destino]
+```
