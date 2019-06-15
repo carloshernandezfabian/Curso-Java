@@ -19,7 +19,7 @@ Un diagrama de flujo es la representación de un algoritmo, es decir, representa
 
 **Simbologia**
 
-![diagramas de flujo](Imagenes/diagramas-flujo.PNG)
+![diagramas de flujo](Imagenes/diagramas-flujo.png)
 
 * Pseudo-código
 
