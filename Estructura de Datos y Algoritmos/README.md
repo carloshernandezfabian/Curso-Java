@@ -4,36 +4,40 @@
 
 Caracteristicas de un algoritmo :
 
-* Un algoritmo debe ser preciso y llevar un orden en la realización de cada paso.
+* Finito : Un algoritmo siempre termina, después de un número finito de pasos.
 
-* Un algoritmo debe ser definido.
-(se debe obtener el mismo resultado, las veces que se realize)
-* Un algoritmo debe ser finito. (termina en algun momento)
+* Definido : Cada paso de un algoritmo debe ser definido de manera precisa, estableciendo las acciones que van a efectuar clara y rigurosamente, en cada paso.
+
+* Efectivo : Un algoritmo debe ser efectivo, considerando, su tiempo de ejecución, adaptabilidad, simplicidad y elegancia.
+
+**Tecnicas para la formulación de algoritmos**
 
 
-**Tipos de algoritmos**
+* Diagramas de Flujo.
 
-* Cualitativos
+Un diagrama de flujo es la representación de un algoritmo, es decir, representa delladamente en forma gráfica de como deben realizars, los pasos en la computadora, para producir resultados.
 
-Son aquellos en los que se describen los pasos utilizando palabras.
+**Simbologia**
 
-* Cuantitativos
+![diagramas de flujo](Imagenes/diagramas-flujo.PNG)
 
-Son aquellos en los que se utilizan cálculos numericos para definir los pasos del proceso.
+* Pseudo-código
+
+el pseudo-código es una mezcla de lenguaje de programación y español (o cualquier otro idioma) que se emplea, dentro de la programación estructurada, para realizar el diseño de un programa.
+
+El pseudo-código se puede definir como la representación narrativa de los pasos que debe seguir un algoritmo para dar solución a un problema determinado.
+
+El pseudo-código utiliza palabras, que indican el proceso a realizar.
+
+**ejemplo :**
+
+![pseudocodigo](Imagenes/pseudocodigo.PNG)
 
 # Estructuras de Datos #
 
 Las estructuras de datos son una colección de datos cuya organización se caracteriza por las funciones de acceso que se usan para almacenar y acceder a elementos individuales de datos.
 
 Debido a que por lo general tenemos que tratar con conjuntos de datos y no con datos simples, es necesario tratar con estructuras de datos adecuadas a cada necesidad.
-
-Caracteristicas de una Estructura de Datos :
-
- - Pueden descomponerse en los elementos que la confoman.
-
-*  La manera en que se colocan los elementos dentro de la estructura, afectará la forma en que se realicen los accesos a cada elemento.
-
-* La colocación de los elementos y la manera en que se accede a ellos, puede ser encapsulada.
 
 La información que se procesa en la computadora, es un conjunto de datos que pueden ser simples o estructurados.
 
@@ -69,7 +73,7 @@ La asignación de tipos a los datos, tiene dos objetivos principales:
 
 Este tipo nos permite tener un mayor control, sobre la gestion de memoria en nuestros programas ya que no tienen limitaciones o restricciones en el tamaño de memoria ocupada.
 
-Mediante el uso de un tipo de datos especifico (puntero) es posible construir estructutras de datos dinamicas, ofreciendo soluciones eficaces y efectivas, en la solución de problemas complejos.
+Mediante el uso de un tipo de dato especifico (puntero) es posible construir estructutras de datos dinamicas, ofreciendo soluciones eficaces y efectivas, en la solución de problemas complejos.
 
 se caracterizan por el hecho, de que con un nombre, se hace referencia a un grupo de casillas de memoria.
 
@@ -225,4 +229,20 @@ int [][] temperaturas = new int [12][31];
 
 # Cadenas de Caracteres #
 
-Una cadena de caracteres, es un vetor de caracteres.
+Una cadena de caracteres, es un vector de caracteres.
+
+![cadena de caracteres](Imagenes/cadena.PNG)
+
+**Operaciones con cadenas de caracteres :**
+
+* Asignación.
+* Concatenación.
+* Búsqueda.
+* Extracción.
+* Comparación.
+
+**Tipos de Cadenas**
+
+* Dinamicas : pueden alterar su longitud, en tiempo de ejecución.
+
+* Estaticas : su longitud es fija, a lo largo del tiempo de ejecución.
