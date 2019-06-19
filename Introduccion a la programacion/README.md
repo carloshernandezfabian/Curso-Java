@@ -14,8 +14,6 @@ Un lenguaje de Programación permite especificar de manera precisa, sobre que da
 * Forma de ejecución.
 * Paradigma de Programación
 
-![Lenguajes](Imagenes/imagen3.png)
-
 ## Nivel de Abstracción
 
 * **Lenguaje maquina y de bajo nivel**
@@ -37,8 +35,6 @@ Los lenguajes de programación de alto nivel se caracterizan por expresar los al
 Los lenguajes de muy alto nivel, se crearon para que el usuario cómun, pudiese solucionar ciertos problemas sencillos de procesamiento de datos, de una manera más fácil y rápida.
 
 Los lenguajes de bajo y alto nivel requieren de conocimientos específicos de programación y de el lenguaje en concreto (vocabulario, gramática y sintaxis) para realizar las secuencias de instrucciones lógicas.
-
-![Lenguajes](Imagenes/imagen2.png)
 
 ## Forma de Ejecución
 
