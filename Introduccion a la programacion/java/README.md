@@ -1,3 +1,5 @@
+# Introducción a Java
+
 ### Java
 Java es un lenguaje de programación multiplataforma, orientado a objetos, diseñado para que los desarrolladores puedan crear una sola vez sus programas y se ejecuten en cualquier plataforma.
 
@@ -15,11 +17,20 @@ componentes del JDK:
 + Depurador.
 + Generador de documentación.
 
+Las variables de entorno mas improtantes son :
+
+**javac :** Es el compilador de Java, encargado de convertir nuestro codigo fuente(.java) en bytecode(.class) el cual posteriormente sera interpretado y ejecutado por la JVM.
+
+**java :** es el interprete de Java.
+
 ### JRE (Java Runtime Enviroment)
 
 Es la implentación de la maquina virtual de java, actua como un intermediario entre el sistema y java.
 
 El JRE esta compuesto por dos importantes areas, la primera son las clases que conforman el API de java y la segunda es la JVM.
+
+![java](Imagenes/imagen2.png)
+
 
 + **El API** son todas las clases que componen el ambiente java y que al momento de ser utilizadas desde la aplicación podrán ser ejecutadas y/o interpretadas por la JVM.
 
@@ -27,13 +38,14 @@ El JRE esta compuesto por dos importantes areas, la primera son las clases que c
 
 La JVM es el programa que interpreta el codigo java,mientras que las librerias de clases estándar son las que implementan el API de java, ambas deben ser consistentes entre sí.
 
-**Tipos de Dato**
 
-Java define 8 tipos de datos, primitivos.
 
-| Dato    | Tipo   | Valor Min    |
-| --------|:------:| ------------:|
-| byte    | entero | - 128        |
-| short   | entero | - 32768      |
-| int     | entero | - 2147483648 |
-| long    | entero |              |
+```java
+public class MiPrimeraClase {
+    public static void main(String[] args) {
+      System.out.println("Hola");
+    }
+}
+```
+
+![javac](Imagenes/javac.PNG)
