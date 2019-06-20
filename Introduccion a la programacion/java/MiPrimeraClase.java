@@ -1,8 +1,6 @@
+public class MiPrimeraClase{
 
-public class MiPrimeraClase {
-    public static void main(String[] args) {
-
+    public static void main(String[] carlos) {
       System.out.println("Hola");
     }
-
 }

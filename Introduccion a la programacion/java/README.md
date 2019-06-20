@@ -21,7 +21,20 @@ Las variables de entorno mas improtantes son :
 
 **javac :** Es el compilador de Java, encargado de convertir nuestro codigo fuente(.java) en bytecode(.class) el cual posteriormente sera interpretado y ejecutado por la JVM.
 
-**java :** es el interprete de Java.
+> Para compilar se debe poner el nombre completo del archivo, con todo y extensión.
+
+```Shell
+javac NombreArchivo.java
+```
+
+**java :** es el comando que nos permite ejecutar el código Java.
+
+> Para ejecutarlo se debe poner el nombre de la Clase unicamente.
+
+```Shell
+java NombreClase
+```
+
 
 ### JRE (Java Runtime Enviroment)
 
