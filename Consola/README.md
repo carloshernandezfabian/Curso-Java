@@ -6,7 +6,7 @@ Este comando, lista los archivos y carpetas del directorio actual.
 
 ![comando ls](ImagenesLinux/comando-ls.PNG)
 
-### **Opciones** ###
+### **Parámetros** ###
 
 * ls -a
 
@@ -14,7 +14,22 @@ Muestra los archivos y directorios  del directorio actual incluyendo los archivo
 
 * ls -l
 
-Muestra información un poco mas detalla de los archivos y directorios tales como: nombre, permisos, propietario, fecha y hora de la  modificacion, etc.
+Muestra información un poco mas detalla de los archivos y directorios tales como: nombre, permisos, propietario, fecha y hora de la  modificacion (formato largo) y muestra la suma del tamaño de los archivos.
+
+* ls -tl
+
+el parametro "t" muestra los archivos en orden de modificación. los mas recientes primero.
+
+> el parámetro "l" hara la misma funcion antes mencionada.
+
+* ls -r
+
+Este comando invirte la lista de los archivos.
+
+* ls -ltr
+
+Este comando nos muestra los archivos por orden de modificacion, siendo el ultimo el mas reciente.
+
 
 ##  **cd** ##
 
